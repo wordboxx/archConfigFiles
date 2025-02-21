@@ -1,0 +1,49 @@
+* {
+    font-family: "Hack", monospace;
+}
+
+window {
+    background-color: #1d2021;
+    border: 2px solid #434a4c;
+}
+
+#input {
+    margin: 5px;
+    border-radius: 0px;
+    border: 2px solid #434a4c;
+    background-color: #1d2021;
+    color: white;
+}
+
+#inner-box {
+    background-color: #1d2021;
+}
+
+#outer-box {
+    margin: 2px;
+    padding: 10px;
+    background-color: #1d2021;
+}
+
+#scroll {
+    margin: 5px;
+}
+
+#text {
+    padding: 4px;
+    color: white;
+}
+
+#entry:nth-child(even){
+    background-color: #1d2021;
+}
+
+#entry:selected {
+    color: #4C566A;
+    background-color: #d4be98;
+}
+
+#text:selected {
+    color: #303536;
+    background: transparent;
+}
